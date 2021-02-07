@@ -1,0 +1,48 @@
+page {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  background: #F6F7F9;
+
+  .page-wrapper {
+
+
+    .page-header {
+      padding: 0 32rpx 60rpx;
+
+
+    }
+    .page-content{
+      background-color: #FFFFFF;
+      padding: 32rpx 24rpx;
+      margin-top: 32rpx;
+      border-radius: 16px;
+
+      .title{
+        color: #333333;
+        font-size: 32rpx;
+        font-weight: bold;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+      }
+      .text{
+        color: #666666;
+        font-size: 28rpx;
+        margin: 16rpx 0 32rpx;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+      }
+      .time{
+        color: #999999;
+        font-size: 24rpx;
+      }
+    }
+
+
+  }
+
+}

@@ -1,0 +1,187 @@
+page {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  background: #FFFFFF;
+
+  .page-wrapper {
+
+
+    .page-header {
+
+
+
+
+    }
+
+
+  }
+}
+
+// header start
+	.cu-bar{
+    position: relative; z-index: 9;
+  }
+	// header end
+  .bg_img{width:100%;height:441upx;position:absolute;left:0;top:0;z-index:0}
+
+.header-portrait{
+  position: relative;
+  display: flex;
+  padding: 52rpx 32rpx 64rpx;
+
+  .left{
+    width: 96rpx;
+    height: 96rpx;
+    border-radius: 50%;
+
+    image{
+      width: 96rpx;
+      height: 96rpx;
+      border-radius: 50%;
+    }
+  }
+  .right{
+    width: 450rpx;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 24rpx;
+
+    .title{
+      width: 100%;
+      color: #333333;
+      font-size: 32rpx;
+      font-weight: bold;
+    }
+    .text{
+      color: #666666;
+      font-size: 22rpx;
+    }
+  }
+
+}
+
+// .header-vip{
+//   padding: 0 32rpx;
+//   margin-bottom: 32rpx;
+
+//   image{
+//     width: 686rpx;
+//     height: 125rpx;
+//   }
+// }
+.header-vip{
+  padding: 0 32rpx;
+  margin-bottom: 32rpx;
+  position: relative;
+
+  .text{
+    position: absolute;
+    right: 50rpx;
+    top: 20rpx;
+    color: #FFFFFF;
+    font-size: 24rpx;
+  }
+
+  image{
+    width: 686rpx;
+    height: 125rpx;
+  }
+}
+
+.header-privilege{
+  width: 280rpx;
+  padding-left: 72rpx;
+
+  .title{
+    color: #333333;
+    font-size: 28rpx;
+    font-weight: bold;
+  }
+  .video{
+
+    image{
+      width: 72rpx;
+      height: 72rpx;
+      margin: 24rpx 0 16rpx 35rpx;
+    }
+  }
+  .text{
+    color: #333333;
+    font-size: 24rpx;
+  }
+}
+
+.header-common-vip{
+  padding: 0 32rpx;
+
+  .title{
+    color: #333333;
+    font-size: 32rpx;
+    font-weight: bold;
+    margin-bottom: 24rpx;
+    padding-top: 40rpx;
+  }
+
+  .common-vip{
+    display: flex;
+    justify-content: space-between;
+    .common{
+      &.act{
+        border: 1px solid $fu-main-color;
+      }
+      .add_money{
+        font-size: 30rpx;
+        color: $fu-main-color;
+      }
+      .money{
+        font-size: 24rpx;
+        color: #999;
+      }
+    }
+    .common{
+      width: 200rpx;
+      border-radius: 18rpx;
+      border: 1px solid #BFBFBF;
+      text-align: center;
+      padding: 48rpx 0;
+
+      .common-title{
+        color: #000000;
+        font-size: 32rpx;
+        font-weight: bold;
+        margin-bottom: 12rpx;
+      }
+      .text{
+        color: #FE535B;
+        font-size: 56rpx;
+
+        .text-m{
+          font-size: 32rpx;
+        }
+      }
+    }
+  }
+
+
+}
+
+.vip-button{
+  position: fixed;
+  left: 50%;
+  bottom: 0rpx;
+  transform: translate(-50%,-50%);
+  background-color: #01CBD3;
+  border-radius: 44px;
+  color: #FFFFFF;
+  font-size: 32rpx;
+  width: 686rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+
+  &::after{
+    border: none;
+  }
+}

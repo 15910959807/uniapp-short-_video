@@ -1,0 +1,40 @@
+page {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  background: #FFFFFF;
+
+  .page-wrapper {
+
+
+    .page-header {
+      padding: 32rpx 32rpx 60rpx;
+
+      .title{
+        color: #333333;
+        font-size: 40rpx;
+        line-height: 40rpx;
+        word-wrap: break-word;
+      }
+      .time{
+        color: #999999;
+        font-size: $uni-font-size-sm;
+        padding: 32rpx 0;
+      }
+      .content{
+        color: #666666;
+        font-size: $uni-font-size-sm;
+        line-height: 36rpx;
+        word-wrap: break-word;
+
+        image{
+          margin-bottom: 32rpx;
+          width: 100%;
+        }
+      }
+
+    }
+
+
+  }
+}

@@ -1,0 +1,559 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+
+    // 引导页
+    {
+      "path": "pages/index/launch/launch-page",
+      "style": {
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "disableScroll": false,
+        "enablePullDownRefresh": true,
+        "app-plus": {
+          "bounce": "none",
+          "scrollIndicator": "none",
+          "pullToRefresh": {
+            "support": true
+          }
+        }
+      }
+    },
+    // 首页
+    {
+      "path": "pages/tab/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+
+    {
+      "path": "pages/about/avatar-cropping",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    // 咨询列表
+    {
+      "path": "pages/index/consult/index",
+      "style": {
+        "navigationBarTitleText": "文章推送",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 文章详情
+    {
+      "path": "pages/index/details/index",
+      "style": {
+        "navigationBarTitleText": "文章推送",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 信息详情
+    {
+      "path": "pages/index/details/message",
+      "style": {
+        "navigationBarTitleText": "信息详情",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 会员中心2
+    {
+      "path": "pages/index/vip-center-two/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+
+    // 课程详情
+    {
+      "path": "pages/index/course/course",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationStyle": "custom",
+        "enadlePullDownRfresh": true, //设置为true标识当前页面开启下拉刷新
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 分享2
+    {
+      "path": "pages/index/course/fenx",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 治疗方法
+    {
+      "path": "pages/index/course/cure",
+      "style": {
+        "navigationBarTitleText": "治疗方法",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 症状自检
+    {
+      "path": "pages/index/course/symptom",
+      "style": {
+        "navigationBarTitleText": "症状自检",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+
+      }
+    },
+    // 支付
+    {
+      "path": "pages/index/course/payment",
+      "style": {
+        "navigationBarTitleText": "去支付",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 支付成功
+    {
+      "path": "pages/index/course/payment-success",
+      "style": {
+        "navigationBarTitleText": "支付结果",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 选择病症
+    {
+      "path": "pages/index/course/search",
+      "style": {
+        "navigationBarTitleText": "选择病症",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 选择病症搜索失败
+    {
+      "path": "pages/index/course/search-failure",
+      "style": {
+        "navigationBarTitleText": "选择病症",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+
+
+    // 消息中心
+    {
+      "path": "pages/tab/message/index",
+      "style": {
+        "navigationBarTitleText": "消息中心",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 我们
+    {
+      "path": "pages/tab/about/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 个人中心
+    {
+      "path": "pages/about/personal",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+
+
+    // 修改手机号
+    {
+      "path": "pages/about/verify-oldphone",
+      "style": {
+        "navigationBarTitleText": "修改手机号",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 新手机号
+    {
+      "path": "pages/about/change-newphone",
+      "style": {
+        "navigationBarTitleText": "修改手机号",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 关于我们
+    {
+      "path": "pages/about/about",
+      "style": {
+        "navigationBarTitleText": "关于我们",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 我的收藏
+    {
+      "path": "pages/about/collect",
+      "style": {
+        "navigationBarTitleText": "我的收藏",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+    // 提交反馈
+    {
+      "path": "pages/about/feedback",
+      "style": {
+        "navigationBarTitleText": "提交反馈",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        // "navigationStyle": "custom",
+        "app-plus": {
+          // "titleView":false,  //不启用系统导航
+          "bounce": "none"
+
+        }
+      }
+    },
+
+    // 修改密码
+    // {
+    //   "path": "pages/set/password/password",
+    //   "style": {
+    //     "navigationBarTitleText": "關於我們",
+    //     "navigationBarBackgroundColor": "#fff",
+    //     "app-plus": {
+    //       "bounce": "none",
+    //       "scrollIndicator": "none",
+    //       "titleNView": {
+    //         "backgroundColor": "#FFFFFF",
+    //         "splitLine": {
+    //           "color": "#EEEEEE"
+    //         }
+
+
+    //       }
+    //     }
+    //   }
+    // },
+
+    // public
+    {
+      "path": "pages/global-pop/modal/index",
+      "style": {
+        "navigationStyle": "custom",
+        "app-plus": {
+          "animationType": "fade-in",
+          "background": "transparent",
+          "backgroundColor": "rgba(0,0,0,0)",
+          "popGesture": "none"
+        }
+      }
+    }
+
+  ],
+
+
+  "subPackages": [
+    {
+      "root": "pages",
+      "name": "pages",
+      "pages": [
+
+        /*================================================
+        =            login templete (登录模块)            =
+        =================================================*/
+
+        /*=====  login  ======*/
+
+        // 登录
+        {
+          "path": "login/login",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "app-plus": {
+              "animationType": "slide-in-right",
+              "bounce": "none",
+              "titleNView": true
+            }
+          }
+        },
+
+        // 验证码登录
+        {
+          "path": "login/login-code",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "app-plus": {
+              "animationType": "slide-in-right",
+              "bounce": "none",
+              "titleNView": true
+            }
+          }
+        },
+
+        // 注册
+        {
+          "path": "login/register",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "app-plus": {
+              "animationType": "slide-in-right",
+              "bounce": "none",
+              "titleNView": true
+            }
+          }
+        },
+
+        // 忘记密码
+        {
+          "path": "login/forget-password",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "app-plus": {
+              "animationType": "slide-in-right",
+              "bounce": "none",
+              "titleNView": true
+            }
+          }
+        },
+
+        // 绑定手机号
+        {
+          "path": "login/bind-phone",
+          "style": {
+            "navigationBarTitleText": "绑定手机号",
+            // "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "app-plus": {
+              "animationType": "slide-in-right",
+              "bounce": "none",
+              "titleNView": true
+            }
+          }
+        },
+        // 修改密码
+        // {
+        //   "path": "login-templete/login-templete001/forget-password/index",
+        //   "style": {
+        //     "navigationBarTitleText": "修改密码",
+        //     // "navigationStyle": "custom",
+        //     "navigationBarBackgroundColor": "#FFFFFF",
+        //     "app-plus": {
+        //       "animationType": "slide-in-right",
+        //       "bounce": "none",
+        //       "titleNView": true
+        //     }
+        //   }
+        // },
+
+        //用户协议
+        {
+          "path": "login/agreement",
+          "style": {
+            "navigationBarTitleText": "服务协议",
+            // "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#FFFFFF",
+            "app-plus": {
+              "animationType": "slide-in-right",
+              "bounce": "none",
+              "titleNView": true
+            }
+          }
+        }
+
+        /*=====  End of login templete (登录模块)  ======*/
+
+
+
+
+      ]
+    },
+
+    {
+      "root": "fu-components",
+      "name": "fu-components",
+      "pages": [
+
+        // 断网检测
+        {
+          "path": "pages/notwork/index",
+          "style": {
+            "navigationBarTitleText": "断网检测",
+            "navigationStyle": "custom",
+            "navigationBarBackgroundColor": "#00DA7F",
+            "app-plus": {
+              "animationType": "slide-in-right",
+              "bounce": "none",
+              "titleNView": {
+                "backgroundColor": "#ffffff",
+                "splitLine": {
+                  "color": "#EEEEEE"
+                }
+              }
+            }
+          }
+        }
+
+      ]
+    }
+  ],
+
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff",
+    "app-plus": {
+      "bounce": "none"
+    }
+  },
+
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "color": "#B1B3BE",
+    "selectedColor": "#412311",
+    "list": [{
+        "pagePath": "pages/tab/index/index",
+        "iconPath": "static/tab/index.png",
+        "selectedIconPath": "static/tab/index-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tab/message/index",
+        "iconPath": "static/tab/message.png",
+        "selectedIconPath": "static/tab/message-active.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/tab/about/index",
+        "iconPath": "static/tab/about.png",
+        "selectedIconPath": "static/tab/about-active.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

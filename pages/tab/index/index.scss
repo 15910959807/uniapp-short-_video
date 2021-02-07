@@ -1,0 +1,244 @@
+page {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  background: #F6F7F9;
+
+  .page-wrapper {
+
+
+    .page-header {
+      padding: 36rpx 32rpx 36rpx;
+
+      .page-header-user{
+        display: flex;
+        align-items: center;
+        image{
+          width: 72rpx;
+          height: 72rpx;
+          border-radius: 50%;
+        }
+      }
+
+      .page-header-title{
+        color: #333333;
+        font-size: 36rpx;
+        font-weight: 500;
+        margin-left: 16rpx;
+      }
+
+    }
+
+
+  }
+}
+// 轮播
+.page-swiper{
+  position: relative;
+
+  swiper-item{
+    image{
+      width: 100%;
+    }
+
+  }
+  .dots {
+    position: absolute;
+    bottom: 20rpx;
+    left: 50%;
+    // 这里一定要注意兼容不然很可能踩坑
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    .dot {
+        width: 13rpx;
+        height: 13rpx;
+        transition: all .6s;
+        background: rgba(255, 255, 255, .6);
+        margin-right: 10rpx;
+        border-radius: 50rpx;
+    }
+
+    .active {
+        width: 24rpx;
+        height: 13rpx;
+        background: rgba(255, 255, 255, 1);
+    }
+  }
+}
+.recommend-swiper{
+  position: relative;
+  swiper-item{
+    image{
+      width: 100%;
+    }
+
+  }
+  .dotsa {
+    position: absolute;
+    bottom: 20rpx;
+    left: 50%;
+    // 这里一定要注意兼容不然很可能踩坑
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    .dota {
+        width: 12rpx;
+        height: 12rpx;
+        transition: all .6s;
+        background: rgba(1, 203, 211, .3);
+        margin-right: 10rpx;
+        border-radius: 50rpx;
+    }
+
+    .activea {
+        width: 24rpx;
+        height: 12rpx;
+        background: rgba(1, 203, 211, 1);
+    }
+  }
+}
+
+// 保健推拿
+.page-health{
+  padding: 24rpx 24rpx 32rpx;
+  // height: 577rpx;
+
+  .health{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+  }
+  .health-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32rpx 17rpx 32rpx;
+    height: 109rpx;
+
+    .title{
+      color: #333333;
+      font-size: 32rpx;
+      font-weight: bold;
+      position: relative;
+      padding-left: 35rpx;
+      flex: 1;
+
+      &:after{
+        content: "";
+        position: absolute;
+        left: 16rpx;
+        top: 8rpx;
+        width: 8rpx;
+        height: 29rpx;
+        border-radius: 45rpx;
+        background-color: #01CBD3;
+      }
+    }
+
+    .more{
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      color: #999999;
+      font-size: 24rpx;
+      padding-right: 24rpx;
+
+      image{
+        width: 8rpx;
+        height: 12rpx;
+        margin-left: 8rpx;
+      }
+    }
+  }
+
+  .health-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 17rpx;
+
+    .list{
+      width: 153rpx;
+      padding-bottom: 24rpx;
+      margin-left: 20rpx;
+      text-align: center;
+
+      .list_img{
+        margin-bottom: 10rpx;
+
+        image{
+          width: 153rpx;
+          height: 104rpx;
+        }
+      }
+
+      text{
+        color: #333333;
+        font-size: 28rpx;
+      }
+    }
+  }
+
+
+}
+.list:nth-child(4n-3){
+  margin-left: 0rpx !important;
+}
+// vip banner
+.vip-banner{
+  text-align: center;
+  padding: 32rpx 32rpx 40rpx;
+}
+.recommend_xian{
+  width: 638rpx;
+  height: 1rpx;
+  margin: 0 auto;
+  background-color: #EEEEEE;
+}
+.recommend-swiper{
+  padding: 24rpx 32rpx;
+
+}
+.recommend-item{
+    display: flex;
+
+  .left{
+    width: 220rpx;
+
+    image{
+      width: 180rpx;
+      height: 180rpx;
+      border-radius: 16rpx;
+    }
+  }
+  .right{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding: 16rpx 0 16rpx 32rpx;
+    width: 100%;
+
+    .title{
+      width: 100%;
+      color: #333333;
+      font-size: 32rpx;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+    .text{
+      color: #999999;
+      font-size: 24rpx;
+    }
+  }
+}
